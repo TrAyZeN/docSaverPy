@@ -1,0 +1,116 @@
+* {
+    color: white;
+    font-family: monospace;
+}
+
+QMainWindow, QDialog {
+    background-color: #303030;
+}
+
+QLabel {
+    font-size: 14px;
+}
+
+QPushButton, QTableWidget {
+    background-color: #4c4c4c;
+}
+
+QPushButton {
+    border-radius: 6px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #636363;
+}
+QPushButton:disabled {
+    background-color: #3a3a3a;
+}
+
+QLineEdit {
+    background-color: #5b5b5b;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+
+QCheckBox {
+    background-color: none;
+    /* image: url(resources/iconx32.png);      ca marche */
+    spacing: 5px;
+}
+QCheckBox::indcator {
+    width: 20px;
+    height: 20px;
+}
+
+QSpinBox {
+    color: black;
+}
+
+QTableWidget {
+    gridline-color: #636363;
+    border: 1px solid #636363;
+    border-radius: 4px;
+}
+QTableWidget:Item {
+    text-align: left;
+    padding: 4px;
+    font-size: 12px;
+}
+
+QHeaderView:section {
+    background-color: #4c4c4c;
+    padding: 4px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid #636363;
+    border-right: 1px solid #636363;
+}
+
+QScrollBar:horizontal {
+    border-top: 1px solid #636363;
+    border-left: 1px solid #636363;
+    border-right: 1px solid #636363;
+    border-radius: 2px;
+    background: #3a3a3a; 
+    height: 15px;
+    margin: 0px 12px 0 12px;
+}
+QScrollBar::handle:horizontal {
+    background-color: #4c4c4c; 
+    min-width: 20px;
+    border-radius: 2px;
+}
+QScrollBar::add-line:horizontal {
+    border-top: 1px solid #636363;
+    border-radius: 2px;
+    background-color: #3a3a3a;
+    width: 12px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    border-top: 1px solid #636363;
+    border-radius: 2px;
+    background-color: #3a3a3a;
+    width: 12px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QProgressBar {
+    border: 1px solid #636363;
+    border-radius: 4px;
+    background-color: #4c4c4c; 
+    text-align: center;
+}
+QProgressBar:chunk {
+    background-color: #636363;
+    width: 5px;
+}
