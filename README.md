@@ -1,28 +1,22 @@
-# docSaverPy
+<h1 align="center">
+    docSaverPy
+</h1>
 
-- [What is docSaverPy?](#what-is-docsaverpy)
-- [Installation](#installation)
+> A software that automates the file saving process
+<div align="center">
+    <img src="assets/image.png"/>
+</div>
+docSaverPy is an open source software made using PyQt. It lets you save your files and allows you to automate this process.
 
-# What is docSaverPy?
-docSaverPy is an open source software that lets you save your file, it permits you to automate this process.
+## Requirements
+- [Python 3](https://www.python.org)
 
-# Installation:
-### On Windows:
-* Install the [latest python 3 version](https://www.python.org) (as long as the latest version supports the PyQt5 package) 
-* Once the installation is complete, install the PyQt5 package: ```py pip install PyQt5```
-* Run main.py: ```py main.py```
+## Install
+```
+git clone https://github.com/TrAyZeN/docSaverPy.git
+cd docSaverPy
+pip install -r requirements.txt
+```
 
-### On Linux:
-Intall Python 3 and then install the PyQt5 package
-* Ubuntu:
-    * ```sudo apt install python3```
-    * ```sudo apt install python3-pip```
-    * ```pip install PyQt5```
-    * ```python3 main.py```
-* Arch Linux:
-    * ```sudo pacman -S python```
-    * ```sudo pacman -S python-pip```
-    * ```pip install PyQt5```
-    * ```python main.py```
-### On Macintosh:
-* I have absolutely no idea
+## License
+MIT TrAyZeN
